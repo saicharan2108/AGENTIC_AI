@@ -1,0 +1,13 @@
+prefix=/Users/saicharan/Documents/ai/agenticAi/financial-agent/venv
+exec_prefix=/Users/saicharan/Documents/ai/agenticAi/financial-agent/venv
+libdir=/Users/saicharan/Documents/ai/agenticAi/financial-agent/venv/lib
+sharedlibdir=/Users/saicharan/Documents/ai/agenticAi/financial-agent/venv/lib
+includedir=/Users/saicharan/Documents/ai/agenticAi/financial-agent/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
